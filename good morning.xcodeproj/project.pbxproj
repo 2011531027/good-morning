@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC66EF6E180FB10A00478F37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC66EF6D180FB10A00478F37 /* UIKit.framework */; };
+		AC66EF70180FB10A00478F37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC66EF6F180FB10A00478F37 /* Foundation.framework */; };
+		AC66EF72180FB10A00478F37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC66EF71180FB10A00478F37 /* CoreGraphics.framework */; };
+		AC66EF78180FB10A00478F37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC66EF76180FB10A00478F37 /* InfoPlist.strings */; };
+		AC66EF7A180FB10A00478F37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC66EF79180FB10A00478F37 /* main.m */; };
+		AC66EF7E180FB10A00478F37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC66EF7D180FB10A00478F37 /* AppDelegate.m */; };
+		AC66EF80180FB10A00478F37 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AC66EF7F180FB10A00478F37 /* Default.png */; };
+		AC66EF82180FB10A00478F37 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC66EF81180FB10A00478F37 /* Default@2x.png */; };
+		AC66EF84180FB10A00478F37 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC66EF83180FB10A00478F37 /* Default-568h@2x.png */; };
+		AC66EF87180FB10A00478F37 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC66EF85180FB10A00478F37 /* MainStoryboard.storyboard */; };
+		AC66EF8A180FB10A00478F37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC66EF89180FB10A00478F37 /* ViewController.m */; };
+		AC66EF92180FB10A00478F37 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC66EF91180FB10A00478F37 /* SenTestingKit.framework */; };
+		AC66EF93180FB10A00478F37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC66EF6D180FB10A00478F37 /* UIKit.framework */; };
+		AC66EF94180FB10A00478F37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC66EF6F180FB10A00478F37 /* Foundation.framework */; };
+		AC66EF9C180FB10B00478F37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC66EF9A180FB10B00478F37 /* InfoPlist.strings */; };
+		AC66EF9F180FB10B00478F37 /* good_morningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC66EF9E180FB10B00478F37 /* good_morningTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC66EF95180FB10A00478F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC66EF62180FB10A00478F37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC66EF69180FB10A00478F37;
+			remoteInfo = "good morning";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC66EF6A180FB10A00478F37 /* good morning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "good morning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC66EF6D180FB10A00478F37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC66EF6F180FB10A00478F37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC66EF71180FB10A00478F37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC66EF75180FB10A00478F37 /* good morning-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "good morning-Info.plist"; sourceTree = "<group>"; };
+		AC66EF77180FB10A00478F37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC66EF79180FB10A00478F37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC66EF7B180FB10A00478F37 /* good morning-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "good morning-Prefix.pch"; sourceTree = "<group>"; };
+		AC66EF7C180FB10A00478F37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC66EF7D180FB10A00478F37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC66EF7F180FB10A00478F37 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AC66EF81180FB10A00478F37 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AC66EF83180FB10A00478F37 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AC66EF86180FB10A00478F37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AC66EF88180FB10A00478F37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC66EF89180FB10A00478F37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC66EF90180FB10A00478F37 /* good morningTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "good morningTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC66EF91180FB10A00478F37 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AC66EF99180FB10B00478F37 /* good morningTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "good morningTests-Info.plist"; sourceTree = "<group>"; };
+		AC66EF9B180FB10B00478F37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC66EF9D180FB10B00478F37 /* good_morningTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = good_morningTests.h; sourceTree = "<group>"; };
+		AC66EF9E180FB10B00478F37 /* good_morningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = good_morningTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC66EF67180FB10A00478F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC66EF6E180FB10A00478F37 /* UIKit.framework in Frameworks */,
+				AC66EF70180FB10A00478F37 /* Foundation.framework in Frameworks */,
+				AC66EF72180FB10A00478F37 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC66EF8C180FB10A00478F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC66EF92180FB10A00478F37 /* SenTestingKit.framework in Frameworks */,
+				AC66EF93180FB10A00478F37 /* UIKit.framework in Frameworks */,
+				AC66EF94180FB10A00478F37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC66EF61180FB10A00478F37 = {
+			isa = PBXGroup;
+			children = (
+				AC66EF73180FB10A00478F37 /* good morning */,
+				AC66EF97180FB10A00478F37 /* good morningTests */,
+				AC66EF6C180FB10A00478F37 /* Frameworks */,
+				AC66EF6B180FB10A00478F37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC66EF6B180FB10A00478F37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC66EF6A180FB10A00478F37 /* good morning.app */,
+				AC66EF90180FB10A00478F37 /* good morningTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC66EF6C180FB10A00478F37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC66EF6D180FB10A00478F37 /* UIKit.framework */,
+				AC66EF6F180FB10A00478F37 /* Foundation.framework */,
+				AC66EF71180FB10A00478F37 /* CoreGraphics.framework */,
+				AC66EF91180FB10A00478F37 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC66EF73180FB10A00478F37 /* good morning */ = {
+			isa = PBXGroup;
+			children = (
+				AC66EF7C180FB10A00478F37 /* AppDelegate.h */,
+				AC66EF7D180FB10A00478F37 /* AppDelegate.m */,
+				AC66EF85180FB10A00478F37 /* MainStoryboard.storyboard */,
+				AC66EF88180FB10A00478F37 /* ViewController.h */,
+				AC66EF89180FB10A00478F37 /* ViewController.m */,
+				AC66EF74180FB10A00478F37 /* Supporting Files */,
+			);
+			path = "good morning";
+			sourceTree = "<group>";
+		};
+		AC66EF74180FB10A00478F37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC66EF75180FB10A00478F37 /* good morning-Info.plist */,
+				AC66EF76180FB10A00478F37 /* InfoPlist.strings */,
+				AC66EF79180FB10A00478F37 /* main.m */,
+				AC66EF7B180FB10A00478F37 /* good morning-Prefix.pch */,
+				AC66EF7F180FB10A00478F37 /* Default.png */,
+				AC66EF81180FB10A00478F37 /* Default@2x.png */,
+				AC66EF83180FB10A00478F37 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC66EF97180FB10A00478F37 /* good morningTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC66EF9D180FB10B00478F37 /* good_morningTests.h */,
+				AC66EF9E180FB10B00478F37 /* good_morningTests.m */,
+				AC66EF98180FB10B00478F37 /* Supporting Files */,
+			);
+			path = "good morningTests";
+			sourceTree = "<group>";
+		};
+		AC66EF98180FB10B00478F37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC66EF99180FB10B00478F37 /* good morningTests-Info.plist */,
+				AC66EF9A180FB10B00478F37 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC66EF69180FB10A00478F37 /* good morning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC66EFA2180FB10B00478F37 /* Build configuration list for PBXNativeTarget "good morning" */;
+			buildPhases = (
+				AC66EF66180FB10A00478F37 /* Sources */,
+				AC66EF67180FB10A00478F37 /* Frameworks */,
+				AC66EF68180FB10A00478F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "good morning";
+			productName = "good morning";
+			productReference = AC66EF6A180FB10A00478F37 /* good morning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC66EF8F180FB10A00478F37 /* good morningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC66EFA5180FB10B00478F37 /* Build configuration list for PBXNativeTarget "good morningTests" */;
+			buildPhases = (
+				AC66EF8B180FB10A00478F37 /* Sources */,
+				AC66EF8C180FB10A00478F37 /* Frameworks */,
+				AC66EF8D180FB10A00478F37 /* Resources */,
+				AC66EF8E180FB10A00478F37 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC66EF96180FB10A00478F37 /* PBXTargetDependency */,
+			);
+			name = "good morningTests";
+			productName = "good morningTests";
+			productReference = AC66EF90180FB10A00478F37 /* good morningTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC66EF62180FB10A00478F37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "kitakyu-shu univercity";
+			};
+			buildConfigurationList = AC66EF65180FB10A00478F37 /* Build configuration list for PBXProject "good morning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC66EF61180FB10A00478F37;
+			productRefGroup = AC66EF6B180FB10A00478F37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC66EF69180FB10A00478F37 /* good morning */,
+				AC66EF8F180FB10A00478F37 /* good morningTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC66EF68180FB10A00478F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC66EF78180FB10A00478F37 /* InfoPlist.strings in Resources */,
+				AC66EF80180FB10A00478F37 /* Default.png in Resources */,
+				AC66EF82180FB10A00478F37 /* Default@2x.png in Resources */,
+				AC66EF84180FB10A00478F37 /* Default-568h@2x.png in Resources */,
+				AC66EF87180FB10A00478F37 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC66EF8D180FB10A00478F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC66EF9C180FB10B00478F37 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC66EF8E180FB10A00478F37 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC66EF66180FB10A00478F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC66EF7A180FB10A00478F37 /* main.m in Sources */,
+				AC66EF7E180FB10A00478F37 /* AppDelegate.m in Sources */,
+				AC66EF8A180FB10A00478F37 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC66EF8B180FB10A00478F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC66EF9F180FB10B00478F37 /* good_morningTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC66EF96180FB10A00478F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC66EF69180FB10A00478F37 /* good morning */;
+			targetProxy = AC66EF95180FB10A00478F37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC66EF76180FB10A00478F37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC66EF77180FB10A00478F37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC66EF85180FB10A00478F37 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC66EF86180FB10A00478F37 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		AC66EF9A180FB10B00478F37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC66EF9B180FB10B00478F37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC66EFA0180FB10B00478F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC66EFA1180FB10B00478F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC66EFA3180FB10B00478F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "good morning/good morning-Prefix.pch";
+				INFOPLIST_FILE = "good morning/good morning-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC66EFA4180FB10B00478F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "good morning/good morning-Prefix.pch";
+				INFOPLIST_FILE = "good morning/good morning-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AC66EFA6180FB10B00478F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/good morning.app/good morning";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "good morning/good morning-Prefix.pch";
+				INFOPLIST_FILE = "good morningTests/good morningTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AC66EFA7180FB10B00478F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/good morning.app/good morning";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "good morning/good morning-Prefix.pch";
+				INFOPLIST_FILE = "good morningTests/good morningTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC66EF65180FB10A00478F37 /* Build configuration list for PBXProject "good morning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC66EFA0180FB10B00478F37 /* Debug */,
+				AC66EFA1180FB10B00478F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC66EFA2180FB10B00478F37 /* Build configuration list for PBXNativeTarget "good morning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC66EFA3180FB10B00478F37 /* Debug */,
+				AC66EFA4180FB10B00478F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC66EFA5180FB10B00478F37 /* Build configuration list for PBXNativeTarget "good morningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC66EFA6180FB10B00478F37 /* Debug */,
+				AC66EFA7180FB10B00478F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC66EF62180FB10A00478F37 /* Project object */;
+}
