@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *label;
+@property enum {GoodMorning, GoodAfternoon, GoodEvening, GoodNight} state;
+- (IBAction)push:(id)sender;
 
 @end
